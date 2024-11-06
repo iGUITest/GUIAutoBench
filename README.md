@@ -1,2 +1,2 @@
 # GUIAutoBench
-Benchmark for LLM-based GUI Task Automation
+A Large-scale Benchmark for Evaluating the Capability of LLMs on GUI Automation Task
