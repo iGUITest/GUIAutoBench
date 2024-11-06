@@ -1,0 +1,29 @@
+{
+
+    "scenario":"star",
+    "sub-scenario":"a note",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the note app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[674,77],[126,123]]
+        },
+        {
+            "index":"2",
+            "description":"Click the field of the note to be classified with text \"数学作业\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[34,703],[799,244]]
+        },
+        {
+            "index":"3",
+            "description":"Click the star button with text \"收藏\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[301,1718],[48,85]]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+
+    "scenario":"History management",
+    "sub-scenario":"clear all Browsing history",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the browser app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[339,110],[148,144]]
+        },
+        {
+            "index":"2",
+            "description":"Click the button with three dots vertically located",
+            "action":"click",
+            "parameter":null,
+            "target":[[964,59],[43,62]]
+        },
+        {
+            "index":"3",
+            "description":"Click the button with the text \"History\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[249,827],[316,78]]
+        },
+        {
+            "index":"4",
+            "description":"Click the button with the text \"Clear browsing data\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[54,246],[561,52]]
+        },
+	{
+            "index":"5",
+            "description":"Click the spinner labeled with the text \"Time range\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[55,468],[943,131]]
+        },
+	{
+            "index":"6",
+            "description":"Click the button with the text \"All time\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[64,1169],[230,64]]
+        },
+	{
+            "index":"7",
+            "description":"Click the blue button with the text \"Clear data\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[595,2090],[428,132]]
+        },
+	{
+            "index":"8",
+            "description":"The browsing history list should have been cleared",
+            "action":null,
+            "parameter":null,
+            "target":[[,],[,]]
+        }
+    ]
+}

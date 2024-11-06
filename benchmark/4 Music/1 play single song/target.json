@@ -1,0 +1,42 @@
+{
+    "scenario":"Play",
+    "sub-scenario":"single song",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the music app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[264,1284],[133,127]]
+        },
+        {
+            "index":"2",
+            "description":"Click the text field to enter",
+            "action":"click",
+            "parameter":null,
+            "target":[[114,144],[512,72]]
+        },
+        {
+            "index":"3",
+            "description":"Enter the name and discription of song on the text field",
+            "action":"input",
+            "parameter":"北京欢迎你",
+            "target":[[224,7],[594,72]]
+        },
+        {
+            "index":"4",
+            "description":"Click the field with the name of the song",
+            "action":"click",
+            "parameter":null,
+            "target":[[0,134],[863,197]]
+        },
+        {
+            "index":"5",
+            "description":"Click the song field to play",
+            "action":"click",
+            "parameter":null,
+            "target":[[0,340],[610,230]]
+        }
+    ]
+}

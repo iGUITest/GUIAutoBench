@@ -1,0 +1,50 @@
+{
+
+    "scenario":"Event creation",
+    "sub-scenario":"create a single event",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the calendar app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[470,338],[142,134]]
+        },
+        {
+            "index":"2",
+            "description":"Click the button with a plus-shaped icon",
+            "action":"click",
+            "parameter":null,
+            "target":[[868,1510],[161,161]]
+        },
+        {
+            "index":"3",
+            "description":"Click the blue button with a calendar icon, labeled \"Event\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[868,1523],[160,156]]
+        },
+        {
+            "index":"4",
+            "description":"Enter the event's title into the text field with the placeholder \"Add title\"",
+            "action":"input",
+            "parameter":"test",
+            "target":[[187,138],[300,99]]
+        },
+        {
+            "index":"5",
+            "description":"Click the blue button with the text \"Save\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[868,60],[157,87]]
+        },
+        {
+            "index":"6",
+            "description":"The main calendar page should now display the event with the previously entered title.",
+            "action":null,
+            "parameter":null,
+            "target":[[,],[,]]
+        }
+    ]
+}

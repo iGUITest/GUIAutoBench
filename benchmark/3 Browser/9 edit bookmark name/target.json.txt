@@ -1,0 +1,71 @@
+{
+
+    "scenario":"Bookmark management",
+    "sub-scenario":"Edit the Name of a bookmark",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the browser app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[339,93],[148,144]]
+        },
+        {
+            "index":"2",
+            "description":"Click the button with three dots vertically located",
+            "action":"click",
+            "parameter":null,
+            "target":[[964,63],[43,62]]
+        },
+        {
+            "index":"3",
+            "description":"Click the button labeled with a star icon and the text \"Bookmarks\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[418,68],[62,65]]
+        },
+        {
+            "index":"4",
+            "description":"Click the button with the text \"Mobile bookmarks\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[56,1209],[693,131]]
+        },
+	{
+            "index":"5",
+            "description":"Click the button with three vertically aligned dots to the right of the first item in the list",
+            "action":"click",
+            "parameter":null,
+            "target":[[965,1027],[43,62]]
+        },
+	{
+            "index":"6",
+            "description":"Click the button with the text \"Edit\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[525,1177],[114,57]]
+        },
+	{
+            "index":"7",
+            "description":"Clear the content of the text field labeled with 'Name' and enter the updated name",
+            "action":"input",
+            "parameter":"test",
+            "target":[[66,343],[253,75]]
+        },
+	{
+            "index":"8",
+            "description":"Click the button with a left-pointing arrow shape",
+            "action":"click",
+            "parameter":null,
+            "target":[[64,61],[59,51]]
+        },
+	{
+            "index":"9",
+            "description":"The first bookmark in the list should display the updated name",
+            "action":null,
+            "parameter":null,
+            "target":[[,],[,]]
+        }
+    ]
+}

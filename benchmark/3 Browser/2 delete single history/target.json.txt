@@ -1,0 +1,43 @@
+{
+
+    "scenario":"History management",
+    "sub-scenario":"delete single history entry",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the browser app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[339,110],[148,144]]
+        },
+        {
+            "index":"2",
+            "description":"Click the button with three dots vertically located",
+            "action":"click",
+            "parameter":null,
+            "target":[[964,59],[43,62]]
+        },
+        {
+            "index":"3",
+            "description":"Click the button with the text \"History\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[249,827],[316,78]]
+        },
+        {
+            "index":"4",
+            "description":"Click the cross-shaped button next to the first entry in the browsing history list",
+            "action":"click",
+            "parameter":null,
+            "target":[[954,634],[61,61]]
+        },
+	{
+            "index":"5",
+            "description":"The first entry in the browsing history list on the previous page should now be gone",
+            "action":null,
+            "parameter":null,
+            "target":[[,],[,]]
+        }
+    ]
+}

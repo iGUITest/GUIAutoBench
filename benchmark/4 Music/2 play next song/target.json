@@ -1,0 +1,33 @@
+{
+    "scenario":"Play",
+    "sub-scenario":"next song",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the music app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[264,1284],[133,127]]
+        },
+        {
+            "index":"2",
+            "description":"Click the play bar",
+            "action":"click",
+            "parameter":null,
+            "target":[[50,1580],[573,97]]
+        },
+        {
+            "index":"3",
+           "description":"Click the next song button",
+            "action":"click",
+            "parameter":null,
+            "target":[[600,1660],[34,36]]
+        },
+        {
+            "index":"4",
+            "description":"Click the song field to play",
+            "target":[[0,340],[610,230]]
+        }
+    ]
+}

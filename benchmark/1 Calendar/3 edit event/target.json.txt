@@ -1,0 +1,57 @@
+{
+
+    "scenario":"Event management",
+    "sub-scenario":"Edit the Name of an existing event",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the calendar app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[466,331],[145,143]]
+        },
+        {
+            "index":"2",
+            "description":"Click the first event button in the current page's event list",
+            "action":"click",
+            "parameter":null,
+            "target":[[194,219],[832,154]]
+        },
+        {
+            "index":"3",
+            "description":"Click the pencil-shaped button to enter edit mode",
+            "action":"click",
+            "parameter":null,
+            "target":[[809,56],[51,60]]
+        },
+        {
+            "index":"4",
+            "description":"In the text field indicated by the red box, delete the current event name and enter a new event name",
+            "action":"input",
+            "parameter":"edited test",
+            "target":[[186,174],[136,70]]
+        },
+	{
+            "index":"5",
+            "description":"Click the blue button with the text \"Save\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[866,60],[160,87]]
+        },
+	{
+            "index":"6",
+            "description":"Click the button with the text \"Save\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[767,1154],[92,43]]
+        },
+	{
+            "index":"7",
+            "description":"The event is displayed with the new name entered in the previous steps",
+            "action":null,
+            "parameter":null,
+            "target":[[,],[,]]
+        }
+    ]
+}

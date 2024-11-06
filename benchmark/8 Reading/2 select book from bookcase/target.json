@@ -1,0 +1,36 @@
+{
+    "scenario": "read a book",
+    "sub-scenario": "from bookcase",
+    "step": [
+        {
+            "index": "1",
+            "description": "Click the read app icon on the desktop",
+            "action": "click",
+            "parameter": null,
+            "target": [
+                [
+                    470,
+                    1280
+                ],
+                [
+                    130,
+                    132
+                ]
+            ]
+        },
+        {
+            "index": "2",
+            "description": "Click the button with text \"书架\"",
+            "action": "click",
+            "parameter": null,
+            "target": [[60,1729],[53,80]]
+        },
+        {
+            "index": "3",
+            "description": "Click the cover of chosen book",
+            "action": "click",
+            "parameter": null,
+            "target": [[40,140],[220,290]]
+        }
+    ]
+}

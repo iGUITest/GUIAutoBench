@@ -1,0 +1,56 @@
+{
+    "scenario":"search",
+    "sub-scenario":"by fliter",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[63,1279],[131,129]]
+        },
+        {
+            "index":"2",
+            "description":"Click the text field to enter",
+            "action":"click",
+            "parameter":null,
+            "target":[[122,0],[473,67]]
+        },
+        {
+            "index":"3",
+            "description":"Enter a location on the text field",
+            "action":"input",
+            "parameter":"羽绒服",
+            "target":[[137,0],[487,83]]
+        },
+        {
+            "index":"4",
+            "description":"Click the search button with the text \"搜索\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[700,7],[133,65]]
+        },
+        {
+            "index":"5",
+            "description":"Click the button with the text \"筛选\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[811,127],[53,26]]
+        },
+        {
+            "index":"6",
+            "description":"Click the chosen options",
+            "action":"click",
+            "parameter":null,
+            "target":[[208,447],[196,88]]
+        },
+        {
+            "index":"7",
+            "description":"Click the button with the text \"确定\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[432,1719],[398,85]]
+        }
+    ]
+}

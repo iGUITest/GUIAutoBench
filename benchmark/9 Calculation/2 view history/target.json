@@ -1,0 +1,29 @@
+{
+
+    "scenario":"result history",
+    "sub-scenario":"view",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the calculator app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[571,339],[129,126]]
+        },
+        {
+            "index":"2",
+            "description":"Click the settings button",
+            "action":"click",
+            "parameter":null,
+            "target":[[787,25],[9,46]]
+        },
+        {
+            "index":"3",
+            "description":"Click the button with text \"历史记录\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[460,245],[318,109]]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+
+    "scenario":"Event management",
+    "sub-scenario":"Delete an existing event",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the calendar app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[466,331],[145,143]]
+        },
+        {
+            "index":"2",
+            "description":"Click the first event button in the current page's event list",
+            "action":"click",
+            "parameter":null,
+            "target":[[195,1634],[831,87]]
+        },
+        {
+            "index":"3",
+            "description":"Click the button with three dots vertically located",
+            "action":"click",
+            "parameter":null,
+            "target":[[953,41],[49,61]]
+        },
+        {
+            "index":"4",
+            "description":"Click the button with the text \"Delete\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[486,72],[150,53]]
+        },
+	{
+            "index":"5",
+            "description":"Click the button with the text \"Delete\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[751,1145],[122,43]]
+        },
+	{
+            "index":"6",
+            "description":"The event that was just clicked should now be removed from the page",
+            "action":null,
+            "parameter":null,
+            "target":[[,],[,]]
+        }
+    ]
+}
