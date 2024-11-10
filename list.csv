@@ -27,7 +27,7 @@ Category No.,App Category,Scenario No.,Scenario
 4,Music,1,play single song
 4,Music,2,play next song
 4,Music,3,play song of specific singer
-5,Clock,1,create clock
+5,Clock,1,create alarm
 5,Clock,2,create timer
 5,Clock,3,create stopwatch
 5,Clock,4,edit clock
