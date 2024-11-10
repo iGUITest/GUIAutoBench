@@ -1,55 +1,42 @@
 {
-    "app":"Music",
-    "scenario":"play single song",
+    "scenario":"Play",
+    "sub-scenario":"single song",
     "step":
     [
         {
             "index":"1",
-            "description":"Click the app icon on the desktop",
+            "description":"Click the music app icon on the desktop",
             "action":"click",
-            "progress":"start",
             "parameter":null,
-            "target":[[587,1028],[162,161]]
+            "target":[[264,1284],[133,127]]
         },
         {
             "index":"2",
             "description":"Click the text field to enter",
             "action":"click",
-            "progress":"inprogress",
             "parameter":null,
-            "target":[[247,36],[591,102]]
+            "target":[[114,144],[512,72]]
         },
         {
             "index":"3",
-            "description":"Enter a location on the text field",
+            "description":"Enter the name and discription of song on the text field",
             "action":"input",
-            "progress":"inprogress",
             "parameter":"北京欢迎你",
-            "target":[[258,36],[606,102]]
+            "target":[[224,7],[594,72]]
         },
         {
             "index":"4",
-            "description":"Click the search button with the text \"搜索\"",
+            "description":"Click the field with the name of the song",
             "action":"click",
-            "progress":"inprogress",
             "parameter":null,
-            "target":[[939,66],[89,42]]
+            "target":[[0,134],[863,197]]
         },
         {
             "index":"5",
             "description":"Click the song field to play",
             "action":"click",
-            "progress":"inprogress",
             "parameter":null,
-            "target":[[0,1087],[858,229]]
-        },
-        {
-            "index":"6",
-            "description":"It should now show the play page",
-            "action":null,
-            "progress":"end",
-            "parameter":null,
-            "target":null
+            "target":[[0,340],[610,230]]
         }
     ]
 }
