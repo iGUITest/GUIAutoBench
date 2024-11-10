@@ -1,0 +1,55 @@
+{
+    "app":"Weather",
+    "scenario":"switch to a new city",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the app icon on the desktop",
+            "action":"click",
+            "progress":"start",
+            "parameter":null,
+            "target":[[843,1029],[162,161]]
+        },
+        {
+            "index":"2",
+            "description":"Click the plus button to switch",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[40,36],[35,37]]
+        },
+        {
+            "index":"3",
+            "description":"Click the button with text \"添加城市\"",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[566,427],[466,111]]
+        },
+        {
+            "index":"4",
+            "description":"Enter the city name on the text field",
+            "action":"input",
+            "progress":"inprogress",
+            "parameter":"北京市",
+            "target":[[49,58],[772,107]]
+        },
+        {
+            "index":"5",
+            "description":"Click the most suitable city field",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[0,205],[1080,159]]
+        },
+        {
+            "index":"6",
+            "description":"It should now show the new city's weather",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
+        }
+    ]
+}

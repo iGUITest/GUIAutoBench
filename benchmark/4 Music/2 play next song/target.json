@@ -1,33 +1,39 @@
 {
-    "scenario":"Play",
-    "sub-scenario":"next song",
+    "app":"Music",
+    "scenario":"play next song",
     "step":
     [
         {
             "index":"1",
-            "description":"Click the music app icon on the desktop",
+            "description":"Click the app icon on the desktop",
             "action":"click",
+            "progress":"start",
             "parameter":null,
-            "target":[[264,1284],[133,127]]
+            "target":[[587,1028],[162,161]]
         },
         {
             "index":"2",
-            "description":"Click the play bar",
+            "description":"Click the player bar to enter play page",
             "action":"click",
+            "progress":"inprogress",
             "parameter":null,
-            "target":[[50,1580],[573,97]]
+            "target":[[0,2012],[829,127]]
         },
         {
             "index":"3",
-           "description":"Click the next song button",
+            "description":"Click the Next button",
             "action":"click",
+            "progress":"inprogress",
             "parameter":null,
-            "target":[[600,1660],[34,36]]
+            "target":[[744,1989],[53,52]]
         },
         {
             "index":"4",
-            "description":"Click the song field to play",
-            "target":[[0,340],[610,230]]
+            "description":"It should now play the next song",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
         }
     ]
 }
