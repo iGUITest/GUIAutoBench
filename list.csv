@@ -44,7 +44,7 @@ Category No.,App Category,Scenario No.,Scenario
 7,Weather,2,switch to a city in list
 8,Reading,1,select book from bookstore
 8,Reading,2,select book from bookcase
-8,Reading,3,collect book
+8,Reading,3,add a book into bookcase from bookstore
 9,Calculation,1,calculate formula
 9,Calculation,2,view history
 9,Calculation,3,delete history
