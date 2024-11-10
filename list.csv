@@ -40,8 +40,8 @@ Category No.,App Category,Scenario No.,Scenario
 6,Note,3,change view to small grid 
 6,Note,4,collect note
 6,Note,5,star note
-7,Weather,1,switch to a city in list
-7,Weather,2,switch to a new city
+7,Weather,1,switch to a new city
+7,Weather,2,switch to a city in list
 8,Reading,1,select book from bookstore
 8,Reading,2,select book from bookcase
 8,Reading,3,collect book
