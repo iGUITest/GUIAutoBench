@@ -1,0 +1,31 @@
+{
+    "app":"Calculator",
+    "scenario":"clear current result",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the app icon on the desktop",
+            "action":"click",
+            "progress":"start",
+            "parameter":null,
+            "target":[[710,455],[161,158]]
+        },
+        {
+            "index":"2",
+            "description":"Click the button with text \"C\"",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[75,1020],[210,220]]
+        },
+        {
+            "index":"3",
+            "description":"The calculator should now be blank",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
+        }
+    ]
+}

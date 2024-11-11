@@ -1,35 +1,47 @@
 {
-    "scenario":"search",
-    "sub-scenario":"by keyword",
+    "app":"Common",
+    "scenario":"search by keyword",
     "step":
     [
         {
             "index":"1",
-            "description":"Click the music app icon on the desktop",
+            "description":"Click the app icon on the desktop",
             "action":"click",
+            "progress":"start",
             "parameter":null,
-            "target":[[264,1284],[133,127]]
+            "target":[[588,1030],[161,160]]
         },
         {
             "index":"2",
             "description":"Click the text field to enter",
             "action":"click",
+            "progress":"inprogress",
             "parameter":null,
-            "target":[[114,144],[512,72]]
+            "target":[[132,125],[658,111]]
         },
         {
             "index":"3",
-            "description":"Enter the name and discription of song on the text field",
+            "description":"Enter the keyword on the text field",
             "action":"input",
-            "parameter":"北京欢迎你",
-            "target":[[211,94],[611,77]]
+            "progress":"inprogress",
+            "parameter":"周杰伦",
+            "target":[[140,27],[657,113]]
         },
         {
             "index":"4",
-            "description":"Click the search button with text \"搜索\"",
+            "description":"Click the search button with the text \"搜索\"",
             "action":"click",
+            "progress":"inprogress",
             "parameter":null,
-            "target":[[713,1711],[138,100]]
+            "target":[[882,49],[146,71]]
+        },
+        {
+            "index":"5",
+            "description":"It should now show the search result by keyword",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
         }
     ]
 }

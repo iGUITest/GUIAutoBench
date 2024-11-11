@@ -27,25 +27,23 @@ Category No.,App Category,Scenario No.,Scenario
 4,Music,1,play single song
 4,Music,2,play next song
 4,Music,3,play song of specific singer
-5,Clock,1,create alarm
-5,Clock,2,create timer
-5,Clock,3,create stopwatch
-5,Clock,4,edit clock
-5,Clock,5,open clock
-5,Clock,6,close clock
-5,Clock,7,delete clock
-5,Clock,8,set repeated clock
-6,Note,1,create note
-6,Note,2,delete note
-6,Note,3,change view to small grid 
-6,Note,4,collect note
-6,Note,5,star note
-7,Weather,1,switch to a new city
-7,Weather,2,switch to a city in list
-8,Reading,1,select book from bookstore
-8,Reading,2,select book from bookcase
-8,Reading,3,add a book into bookcase from bookstore
-9,Calculation,1,calculate formula
-9,Calculation,2,view history
-9,Calculation,3,delete history
-9,Calculation,4,clear calculation
+5,Note,1,create note
+5,Note,2,delete note
+5,Note,3,switch to detail view
+5,Note,4,pin a note to top
+5,Note,5,create a group
+5,Note,6,add a note into group
+5,Note,7,switch to another group
+6,Weather,1,switch to a new city
+6,Weather,2,switch to a city in list
+7,Reading,1,select book from bookstore
+7,Reading,2,select book from bookcase
+7,Reading,3,add a book into bookcase from bookstore
+8,Clock,1,create alarm
+8,Clock,2,edit alarm name
+8,Clock,3,close a alarm
+8,Clock,4,open a alarm
+8,Clock,5,set a alarm repeat every Monday
+9,Calculator,1,calculate a formula
+9,Calculator,2,clear current result
+9,Calculator,3,view history

@@ -1,0 +1,55 @@
+{
+    "app":"Clock",
+    "scenario":"create alarm",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the clock app icon on the desktop",
+            "action":"click",
+            "progress":"start",
+            "parameter":null,
+            "target":[[585,125],[161,158]]
+        },
+        {
+            "index":"2",
+            "description":"Click the plus button",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[467,1950],[143,140]]
+        },
+        {
+            "index":"3",
+            "description":"Drag the hour to \"9\"",
+            "action":"onscroll",
+            "progress":"inprogress",
+            "parameter":[0,-903],
+            "target":[[297,496],[64,41]]
+        },
+        {
+            "index":"4",
+            "description":"Drag the minute to \"00\"",
+            "action":"onscroll",
+            "progress":"inprogress",
+            "parameter":[0,-2709],
+            "target":[[725,496],[64,41]]
+        },
+        {
+            "index":"5",
+            "description":"Click the tick button",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[939,69],[61,41]]
+        },
+        {
+            "index":"6",
+            "description":"It should now show the created alarm",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
+        }
+    ]
+}

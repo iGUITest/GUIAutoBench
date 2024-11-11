@@ -1,0 +1,47 @@
+{
+    "app":"Note",
+    "scenario":"pin a note to top",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the app icon on the desktop",
+            "action":"click",
+            "progress":"start",
+            "parameter":null,
+            "target":[[79,1632],[162,161]]
+        },
+        {
+            "index":"2",
+            "description":"Click the field of the note to be pinned",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[35,520],[1009,240]]
+        },
+        {
+            "index":"3",
+            "description":"Click the menu button",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[940,40],[85,85]]
+        },
+        {
+            "index":"4",
+            "description":"Click the button with text \"置顶便签\"",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[0,1540],[1080,20]]
+        },
+        {
+            "index":"5",
+            "description":"It should now show the tip with text \"已成功置顶标签\"",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
+        }
+    ]
+}

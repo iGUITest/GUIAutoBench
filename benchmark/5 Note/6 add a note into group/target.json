@@ -1,0 +1,55 @@
+{
+    "app":"Note",
+    "scenario":"add a note into group",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the app icon on the desktop",
+            "action":"click",
+            "progress":"start",
+            "parameter":null,
+            "target":[[79,1632],[162,161]]
+        },
+        {
+            "index":"2",
+            "description":"Click the field of the note to be changed",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[40,685],[1003,233]]
+        },
+        {
+            "index":"3",
+            "description":"Click the menu button",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[940,40],[85,85]]
+        },
+        {
+            "index":"4",
+            "description":"Click the button with text \"移动便签\"",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[0,1830],[1080,95]]
+        },
+        {
+            "index":"5",
+            "description":"Click the button with text \"确定\"",
+            "action":"click",
+            "progress":"inprogress",
+            "parameter":null,
+            "target":[[50,2152],[980,128]]
+        },
+        {
+            "index":"6",
+            "description":"It should now show the tip with text \"移动成功\"",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
+        }
+    ]
+}
