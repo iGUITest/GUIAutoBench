@@ -1,42 +1,55 @@
 {
-    "scenario":"Play",
-    "sub-scenario":"single song",
+    "app":"Music",
+    "scenario":"play single song",
     "step":
     [
         {
             "index":"1",
-            "description":"Click the music app icon on the desktop",
+            "description":"Click the app icon on the desktop",
             "action":"click",
+            "progress":"start",
             "parameter":null,
-            "target":[[264,1284],[133,127]]
+            "target":[[587,1028],[162,161]]
         },
         {
             "index":"2",
             "description":"Click the text field to enter",
             "action":"click",
+            "progress":"inprogress",
             "parameter":null,
-            "target":[[114,144],[512,72]]
+            "target":[[247,36],[591,102]]
         },
         {
             "index":"3",
-            "description":"Enter the name and discription of song on the text field",
+            "description":"Enter a location on the text field",
             "action":"input",
+            "progress":"inprogress",
             "parameter":"北京欢迎你",
-            "target":[[224,7],[594,72]]
+            "target":[[258,36],[606,102]]
         },
         {
             "index":"4",
-            "description":"Click the field with the name of the song",
+            "description":"Click the search button with the text \"搜索\"",
             "action":"click",
+            "progress":"inprogress",
             "parameter":null,
-            "target":[[0,134],[863,197]]
+            "target":[[939,66],[89,42]]
         },
         {
             "index":"5",
             "description":"Click the song field to play",
             "action":"click",
+            "progress":"inprogress",
             "parameter":null,
-            "target":[[0,340],[610,230]]
+            "target":[[0,1087],[858,229]]
+        },
+        {
+            "index":"6",
+            "description":"It should now show the play page",
+            "action":null,
+            "progress":"end",
+            "parameter":null,
+            "target":null
         }
     ]
 }
