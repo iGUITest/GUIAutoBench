@@ -1,0 +1,22 @@
+{
+
+    "scenario":"clear",
+    "sub-scenario":null,
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the calculator app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[571,339],[129,126]]
+        },
+        {
+            "index":"2",
+            "description":"Click the clear button with text \"C\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[60,795],[164,164]]
+        }
+    ]
+}

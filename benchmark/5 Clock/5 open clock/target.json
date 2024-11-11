@@ -1,0 +1,21 @@
+{
+    "scenario":"manage clock",
+    "sub-scenario":"open",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the clock app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[469,78],[130,126]]
+        },
+        {
+            "index":"2",
+            "description":"Click the start button",
+            "action":"click",
+            "parameter":null,
+            "target":[[709,1071],[93,50]]
+        }
+    ]
+}

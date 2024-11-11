@@ -1,0 +1,35 @@
+{
+    "scenario":"Create",
+    "sub-scenario":"timer",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the clock app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[469,78],[130,126]]
+        },
+        {
+            "index":"2",
+            "description":"Click the timer button with text \"计时器\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[726,1720],[53,85]]
+        },
+        {
+            "index":"3",
+            "description":"Drag the minute to \"1分\"",
+            "action":"onscroll",
+            "parameter":[0,100],
+            "target":[[396,1265],[75,46]]
+        },
+        {
+            "index":"4",
+            "description":"Click the start button",
+            "action":"click",
+            "parameter":null,
+            "target":[[380,1540],[108,100]]
+        }
+    ]
+}

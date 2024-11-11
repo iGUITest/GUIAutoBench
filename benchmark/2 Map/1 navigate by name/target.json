@@ -1,0 +1,42 @@
+{
+    "scenario":"navigate",
+    "sub-scenario":"by location",
+    "step":
+    [
+        {
+            "index":"1",
+            "description":"Click the map app icon on the desktop",
+            "action":"click",
+            "parameter":null,
+            "target":[[674,1053],[129,129]]
+        },
+        {
+            "index":"2",
+            "description":"Click the text field to enter",
+            "action":"click",
+            "parameter":null,
+            "target":[[22,1040],[643,125]]
+        },
+        {
+            "index":"3",
+            "description":"Enter a location on the text field",
+            "action":"input",
+            "parameter":"北京市",
+            "target":[[137,0],[578,103]]
+        },
+        {
+            "index":"4",
+            "description":"Click the search button with the text \"搜索\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[717,0],[127,117]]
+        }
+        {
+            "index":"5",
+            "description":"Click the search button with the text \"导航\"",
+            "action":"click",
+            "parameter":null,
+            "target":[[370,1730],[210,90]]
+        }
+    ]
+}

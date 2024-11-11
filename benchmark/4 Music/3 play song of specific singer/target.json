@@ -1,63 +1,42 @@
 {
-    "app":"Music",
-    "scenario":"play song of specific singer",
+    "scenario":"Play",
+    "sub-scenario":"a singer's song",
     "step":
     [
         {
             "index":"1",
-            "description":"Click the app icon on the desktop",
+            "description":"Click the music app icon on the desktop",
             "action":"click",
-            "progress":"start",
             "parameter":null,
-            "target":[[587,1028],[162,161]]
+            "target":[[264,1284],[133,127]]
         },
         {
             "index":"2",
             "description":"Click the text field to enter",
             "action":"click",
-            "progress":"inprogress",
             "parameter":null,
-            "target":[[247,36],[591,102]]
+            "target":[[114,144],[512,72]]
         },
         {
             "index":"3",
-            "description":"Enter a location on the text field",
+            "description":"Enter the singer's name on the text field",
             "action":"input",
-            "progress":"inprogress",
             "parameter":"薛之谦",
-            "target":[[258,36],[606,102]]
+            "target":[[224,7],[594,72]]
         },
         {
             "index":"4",
-            "description":"Click the search button with the text \"搜索\"",
+            "description":"Click the field with the name of the singer",
             "action":"click",
-            "progress":"inprogress",
             "parameter":null,
-            "target":[[939,66],[89,42]]
+            "target":[[0,107],[861,203]]
         },
         {
             "index":"5",
-            "description":"Click the singer field",
+            "description":"Click the first song field to play",
             "action":"click",
-            "progress":"inprogress",
             "parameter":null,
-            "target":[[0,326],[843,52]]
-        },
-        {
-            "index":"6",
-            "description":"Click the first song on the singer's page",
-            "action":"click",
-            "progress":"inprogress",
-            "parameter":null,
-            "target":[[0,2015],[841,120]]
-        },
-        {
-            "index":"7",
-            "description":"It should now show the play page",
-            "action":null,
-            "progress":"end",
-            "parameter":null,
-            "target":null
+            "target":[[0,1213],[861,137]]
         }
     ]
 }
